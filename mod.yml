@@ -376,6 +376,10 @@ assets:
   - name: remastered/obj/P_EX100_TRIF.mdlx/-3.dds
   - name: remastered/obj/P_EX100_ULTF.mdlx/-3.dds
   - name: remastered/obj/P_EX100_WM.mdlx/-3.dds
+  - name: remastered/obj/P_EX120.mdlx/-3.dds
+  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-3.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-3.dds
+  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-3.dds
   - name: remastered/obj/PLAYER.mdlx/-3.dds
   - name: remastered/obj/PO06_PLAYER.mdlx/-3.dds
   - name: remastered/obj/PO07_PLAYER.mdlx/-3.dds
@@ -405,6 +409,10 @@ assets:
   - name: remastered/obj/P_EX100_TRIF.mdlx/-4.dds
   - name: remastered/obj/P_EX100_ULTF.mdlx/-4.dds
   - name: remastered/obj/P_EX100_WM.mdlx/-4.dds
+  - name: remastered/obj/P_EX120.mdlx/-4.dds
+  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-4.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-4.dds
+  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-4.dds
   - name: remastered/obj/PLAYER.mdlx/-4.dds
   - name: remastered/obj/PO06_PLAYER.mdlx/-4.dds
   - name: remastered/obj/PO07_PLAYER.mdlx/-4.dds
@@ -572,24 +580,6 @@ assets:
   method: copy
   source:
   - name: remastered/obj/P_EX120.mdlx/-2.dds
-- name: remastered/obj/P_EX120.mdlx/-3.dds
-  multi:
-  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-3.dds
-  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-3.dds
-  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/obj/P_EX120.mdlx/-3.dds
-- name: remastered/obj/P_EX120.mdlx/-4.dds
-  multi:
-  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-4.dds
-  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-4.dds
-  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: remastered/obj/P_EX120.mdlx/-4.dds
 - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-0.dds
   platform: pc
   method: copy
